@@ -1,6 +1,7 @@
 <h1>主頁</h1>
 <p>40623219的網誌</p>
-<p><img alt="" height="280" src="/images/122969401_873380169861568_1210788293423575033_n.jpg" width="316"/></p><h2>cmsimde網誌管理</h2>
+<p><img alt="" height="280" src="/images/122969401_873380169861568_1210788293423575033_n.jpg" width="316"/></p>
+<h2>cmsimde網誌管理</h2>
 <p>此內容管理系統以 <a href="https://github.com/mdecourse/cmsimde">https://github.com/mdecourse/cmsimde</a> 作為 submodule 運作, 可以選定對應的版本運作, cmsimde 可以持續改版, 不會影響之前設為 submodule, 使用舊版 cmsimde 模組的內容管理相關運作.</p>
 <h4>利用 cmsimde 建立靜態網誌方法:</h4>
 <p>1. 在 github 建立倉儲, git clone 到近端</p>
@@ -15,5 +16,14 @@
 <p><a href="https://github.com/mdecourse/cmsimde">https://github.com/mdecourse/cmsimde</a> 的開發, 可以在一個目錄中放入 cmsimde, 然後將 up_dir 中的內容放到與 cmsimde 目錄同位階的地方, 使用 command 進入 cmsimde 目錄, 執行 python wsgi.py, 就可以啟動, 以瀏覽器 https://localhost:9443 就可以連接, 以 admin 作為管理者密碼, 就可以登入維護內容.</p>
 <p>cmsimde 的開發採用 Leo Editor, 開啟 cmsimde 目錄中的 cmsimde.leo 就可以進行程式修改, 結束後, 若要保留網際內容, 只要將 cmsimde 外部的內容倒回 up_dir 目錄中即可後續對 cmsimde 遠端倉儲進行改版.</p>
 <p>init.py 位於  up_dir 目錄, 可以設定 site_title 與 uwsgi 等變數.</p>
-<h3>test</h3>
-<p>2020/10/30 第一次測試</p>
+<h2>紀錄</h2>
+<h3>W5</h3>
+<p>今天將fall2020_v2載下來，這個是有包含git指令的部分，因為是用自己的網路所以需要設PROXY連到學校的IPV4</p>
+<p><img alt="" height="181" src="/images/123952139_885781228621390_6327436719968359865_n.jpg" width="241"/><img alt="" height="180" src="/images/124007430_1008681616310228_3931818478650079598_n.jpg" width="240"/></p>
+<p>設定完後便可到a.kmol.info:88 這裡下載新的可攜式系統版本</p>
+<h3>W6</h3>
+<p>今天將自己的github倉儲 clone 下來，並且使用了新的指令:git submodule add ，</p>
+<p>git submodule add<span> </span><a href="https://github.com/mdecourse/cmsimde.git">https://github.com/mdecourse/cmsimde.git</a> cmsimde</p>
+<p>表示要透過 git submodule add 將<span> </span><a href="https://github.com/mdecourse/cmsimde.git">https://github.com/mdecourse/cmsimde.git</a> 遠端倉儲當作子模組, 而且將資料存入子目錄 cmsimde 中</p>
+<p>，這裡出現了一個問題:當我輸入git submodule add並執行時，一直出現網路的錯誤，無法將其載下來，這裡我是使用手機的網路透過WIFI天線來連線的，後來回家用桌機後就有成功了。</p><h3>W7</h3>
+<p>2020/10/30 第一次成功使用cmsimde網誌管理的部分，先前遇到了問題，開啟動態網頁時都會顯示錯誤，後來發現是我將cmsimde的資料丟錯了資料夾，後來就正常了</p>
