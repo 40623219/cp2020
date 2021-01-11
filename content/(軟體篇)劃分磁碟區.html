@@ -1,0 +1,199 @@
+<!DOCTYPE html><html>
+        <head>
+        <title>CMSiMDE</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700,900" rel="stylesheet">
+        <link rel="stylesheet" href="./../cmsimde/static/chimper/fonts/icomoon/style.css">
+        <link rel="stylesheet" href="./../cmsimde/static/chimper/css/bootstrap.min.css">
+        <link rel="stylesheet" href="./../cmsimde/static/chimper/css/magnific-popup.css">
+        <link rel="stylesheet" href="./../cmsimde/static/chimper/css/jquery-ui.css">
+        <link rel="stylesheet" href="./../cmsimde/static/chimper/css/owl.carousel.min.css">
+        <link rel="stylesheet" href="./../cmsimde/static/chimper/css/owl.theme.default.min.css">
+        <link rel="stylesheet" href="./../cmsimde/static/chimper/css/bootstrap-datepicker.css">
+        <link rel="stylesheet" href="./../cmsimde/static/chimper/fonts/flaticon/font/flaticon.css">
+        <link rel="stylesheet" href="./../cmsimde/static/chimper/css/aos.css">
+        <link rel="stylesheet" href="./../cmsimde/static/chimper/css/style.css">
+        <link rel="shortcut icon" href="./../cmsimde/static/favicons.png">
+        
+        <style type='text/css'>
+            .site-section {
+            background-color: #FFFF;
+            padding: 40px 40px;
+            }
+            body > div > div.dropdown.open {
+                display: block;
+            }
+        </style>
+    
+        <!-- <script src="./../cmsimde/static/jquery.js"></script> -->
+        <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> -->
+        <script src="../cmsimde/static/chimper/js/jquery-3.3.1.min.js"></script>
+        <link rel="stylesheet" href="./../cmsimde/static/tipuesearch/css/normalize.min.css">
+        <script src="./../cmsimde/static/tipuesearch/tipuesearch_set.js"></script>
+        <script src="tipuesearch_content.js"></script>
+        <link rel="stylesheet" href="./../cmsimde/static/tipuesearch/css/tipuesearch.css">
+        <script src="./../cmsimde/static/tipuesearch/tipuesearch.js"></script>
+        <script>
+            /* original tipuesearch
+            $(document).ready(function() {
+                 $('#tipue_search_input').tipuesearch();
+            });
+            */
+            // customed doSearch
+            function doSearch() {
+                $('#tipue_search_input').tipuesearch({
+                    newWindow: true, 
+                    minimumLength: 2,
+                    wholeWords: false, // for search 中文
+                });
+            }
+            $(document).ready(doSearch);
+        </script>
+        
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shCore.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushBash.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushDiff.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushJScript.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushJava.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushPython.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushSql.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushHaxe.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushXml.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushPhp.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushLua.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushCpp.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushCss.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushCSharp.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushDart.js"></script>
+<link type="text/css" rel="stylesheet" href="./../cmsimde/static/syntaxhighlighter/css/shCoreDefault.css"/>
+<script type="text/javascript">SyntaxHighlighter.all();</script>
+<!-- 暫時不用
+<script src="./../cmsimde/static/fengari-web.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/Cango-13v08-min.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/CangoAxes-4v01-min.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/gearUtils-05.js"></script>
+-->
+<!-- for Brython 暫時不用
+<script src="https://scrum-3.github.io/web/brython/brython.js"></script>
+<script src="https://scrum-3.github.io/web/brython/brython_stdlib.js"></script>
+-->
+<style>
+img.add_border {
+    border: 3px solid blue;
+}
+</style>
+
+</head>
+<body>
+<div class='container'><nav>
+        
+    <div class="site-wrap">
+
+    <div class="site-mobile-menu">
+      <div class="site-mobile-menu-header">
+        <div class="site-mobile-menu-close mt-3">
+          <span class="icon-close2 js-menu-toggle"></span>
+        </div>
+      </div>
+      <div class="site-mobile-menu-body"></div>
+    </div>
+    
+            <header class="site-navbar py-4 bg-white" role="banner">
+              <div class="container-fluid">
+                <div class="row align-items-center">
+                <h1>40623219 cp2020</h1>
+                <div class="pl-4">
+                    <form>
+                    <input type="text" placeholder="Search" name="q" id="tipue_search_input" pattern=".{2,}" title="At least 2 characters" required>
+                    </form>
+                </div>
+                  <!-- <div class="col-11 col-xl-2">
+                    <h1 class="mb-0 site-logo"><a href="index.html" class="text-black h2 mb-0">40623219 cp2020</a></h1> 
+                  </div>
+                  -->
+                  <div class="col-12 col-md-10 d-none d-xl-block">
+                    <nav class="site-navigation position-relative text-right" role="navigation">
+    <ul class='site-menu js-clone-nav mr-auto d-none d-lg-block'>
+                        <li class="active has-children"><a href="index.html">Home</a>
+                        <ul class="dropdown">
+                            <li><a href="sitemap.html">Site Map</a></li>
+                            <li><a href="./../reveal/index.html">reveal</a></li>
+                            <li><a href="./../blog/index.html">blog</a></li>
+                        </ul>
+                      </li>
+                     <li class='has-children'><a href='主頁.html'>主頁</a><ul class='dropdown'><li><a href='cmsimde網誌管理.html'>cmsimde網誌管理</a><li><a href='Develop.html'>Develop</a></li></ul><li class='has-children'><a href='紀錄.html'>紀錄</a><ul class='dropdown'><li><a href='W1.html'>W1</a><li><a href='W2.html'>W2</a><li><a href='W3.html'>W3</a><li><a href='W4.html'>W4</a><li><a href='W5.html'>W5</a><li><a href='W6.html'>W6</a><li><a href='W7.html'>W7</a><li><a href='W8.html'>W8</a><li><a href='W9.html'>W9</a><li><a href='W10.html'>W10</a><li><a href='W11.html'>W11</a><li><a href='W12.html'>W12</a><li><a href='W13.html'>W13</a><li><a href='W14.html'>W14</a><li><a href='W15.html'>W15</a><li><a href='W16.html'>W16</a><li><a href='W17.html'>W17</a></li></ul><li class='has-children'><a href='HW1.html'>HW1</a><ul class='dropdown'><li><a href='(硬體篇)學習的策略.html'>(硬體篇)學習的策略</a><li><a href='(硬體篇)適當的規劃.html'>(硬體篇)適當的規劃</a><li><a href='(硬體篇)發展自主學習技能.html'>(硬體篇)發展自主學習技能</a><li><a href='(硬體篇)元認知技巧.html'>(硬體篇)元認知技巧</a><li><a href='(硬體篇)目錄.html'>(硬體篇)目錄</a><li><a href='(硬體篇)介紹.html'>(硬體篇)介紹</a><li><a href='(硬體篇)電腦計算機功能1輸入2輸出3儲存和處理.html'>(硬體篇)電腦計算機功能1輸入2輸出3儲存和處理</a><li><a href='(硬體篇)硬體.html'>(硬體篇)硬體</a><li><a href='(硬體篇)軟體.html'>(硬體篇)軟體</a><li><a href='(硬體篇)固件.html'>(硬體篇)固件</a><li><a href='(硬體篇)組件化and標準化.html'>(硬體篇)組件化and標準化</a><li><a href='(硬體篇)連接接口和電線.html'>(硬體篇)連接接口和電線</a><li><a href='(軟體篇)Windows 操作系統.html'>(軟體篇)Windows 操作系統</a><li><a href='(軟體篇)Windows vista 操作系統.html'>(軟體篇)Windows vista 操作系統</a><li><a href='(軟體篇)Windows 7操作系統.html'>(軟體篇)Windows 7操作系統</a><li><a href='(軟體篇)Windows 8操作系統.html'>(軟體篇)Windows 8操作系統</a><li><a href='(軟體篇)Windows 10操作系統.html'>(軟體篇)Windows 10操作系統</a><li><a href='(軟體篇)安裝Windows.html'>(軟體篇)安裝Windows</a><li><a href='(軟體篇)準備安裝硬碟.html'>(軟體篇)準備安裝硬碟</a><li><a href='(軟體篇)劃分磁碟區.html'>(軟體篇)劃分磁碟區</a></li></ul><li><a href='HW2.html'>HW2</a><li><a href='HW3.html'>HW3</a></li>
+                      </ul>
+                </nav>
+              </div>
+              <div class="d-inline-block d-xl-none ml-md-0 mr-auto py-3" style="position: relative; top: 3px;"><a href="#" class="site-menu-toggle js-menu-toggle text-black"><span class="icon-menu h3"></span></a></div>
+              </div>
+
+            </div>
+          </div>
+          
+        </header>
+    <div id="tipue_search_content">(軟體篇)準備安裝硬碟 << <a href='(軟體篇)準備安裝硬碟.html'>Previous</a> <a href='HW2.html'>Next</a> >> HW2<br /><h1>(軟體篇)劃分磁碟區</h1>
+<p>硬盤驅動器實際上可以分為多個分區。 主分區包含單個驅動器號，通常以（C：\）開頭，並且可以使其處於活動狀態或可引導狀態。 這是Windows 7的安裝位置。 擴展分區可以包含一個或多個邏輯驅動器，並且該分區和關聯的驅動器不可引導。 您可以將驅動器劃分為多個分區。 例如，在下面的屏幕截圖中，硬盤實際上被分為四個主要分區，每個分區的百分比分別為（C：\），（D：\），（E：\）和（F：\）。 屏幕底部的圖顯示了單個主分區（驅動器的25％）和三個擴展分區（每個驅動器的25％）的外觀。 相反，整個磁盤可以用作具有單個主分區（C：\）的單個驅動器。 或者，如果有兩個硬盤，則第二個磁盤可以100％用作擴展分區，僅用於數據（無操作系統）。</p>
+<p>Hard drives can be virtually split into multiple partitions. The primary partition contains a single drive letter, usually beginning with (C:\), and can be made active, or bootable. This is where Windows 7 should be installed. An extended partition can contain one or more logical drives and the partition and associated drives cannot be bootable. You can carve up a drive into multiple partitions. For example, in the screenshot below, the hard disk has been virtually split into four primary partitions of 25 percent each (C:\), (D:\), (E:\), and (F:\). The diagram in the bottom of the screen shows how this looks with a single primary partition (25 percent of the drive), and three extended partitions (25 percent each of the drive). Conversely, the entire disk could be used as a single drive with a single primary partition (C:\). Or, if there are two hard disks, the second disk could be used 100 percent as an extended partition, used solely for data (no operating system).</p>
+<p><img alt="" height="391" src="./../images/image7.png" width="520"/></p>
+<p>在Windows 7中的安裝過程中，技術人員必須從下圖所示的屏幕中選擇一個分區（或創建新分區並選擇適當的分區）以在其上安裝Windows。</p>
+<p>During the installation procedure in Windows 7, the technician must choose a partition (or create new partitions and select the appropriate one) to install Windows on from the screen shown in the image below.</p>
+<p><img alt="" height="390" src="./../images/image8.png" width="520"/></p>
+<p>要創建分區，請單擊未分區的驅動器，然後單擊“創建”。 它將提示您輸入分區大小和要使用的文件系統（NTFS）類型。 要刪除分區，請單擊現有分區，然後單擊“刪除”。 要選擇要在其上安裝操作系統的分區，請使用鼠標單擊該分區，然後單擊“下一步”。 在上面的屏幕中，20 GB硬盤驅動器當前有兩個分區，並創建了文件系統。</p>
+<p>To create a partition, click on the unpartitioned drive, and click Create. It will prompt you for the partition size and type of file system to use (NTFS). To delete a partition, click on the existing partition, and click Delete. To select the partition to install the operating system on, click on it using the mouse, and click Next. In the screen above, the 20 GB hard drive currently has two partitions with file systems created.</p>
+<p>安裝過程中需要的信息<br/>在安裝過程中，技術人員必須輸入某些信息，例如名稱，組織，語言，時間/貨幣，鍵盤方法和產品密鑰。接受最終用戶許可協議，選擇升級/完全安裝選項以及選擇要安裝的硬盤驅動器分區都是必需的。如果技術人員不希望在安裝過程中手動輸入此信息，則使用無人參與的安裝方法（unattend.xml）。</p>
+<p>Information Needed During Installation<br/>During installation a technician must input certain information such as the name, organization, language, time/currency, keyboard method, and product key. Accepting the end user license agreement, selecting upgrade/full installation option, and selecting the hard drive partition for installation are all required. If the technician doesn’t wish to manually input this information during installation, the unattended installation method (unattend.xml) is used.</p>
+<p>服務包<br/>安裝後，確保操作系統具有最新的安全補丁很重要。由於在軟件的初始版本和當前版本之間可能已經發布了許多安全補丁，因此Microsoft將安全更新捆綁到Service Pack中。例如，對於Windows 7，只有一個Service Pack，其中包含數百個安全補丁。它包含針對編程錯誤（稱為bug），安全漏洞和系統改進的更新和修復。為了安裝Service Pack，您必須轉到windows.microsoft.com。接下來，您應該查看發行說明中可能遇到的任何潛在問題。準備就緒後，下載適用於您的Windows版本的正確Service Pack。然後，備份您的當前數據。備份數據後，通過運行下載的安裝實用程序來安裝Service Pack。 Windows 7將繼續收到更新和錯誤修復，直到2020年1月14日，微軟確定其支持將停止，因為Windows 7將達到“使用壽命終止”狀態。</p>
+<p>Service Packs<br/>After installation, it is important to ensure the operating system has the latest security patches. Because a number of security patches may have come out between the initial release of the software and the current version, Microsoft bundles security updates into service packs. For Windows 7, for example, there is only one service pack, containing hundreds of security patches. It contains updates and fixes for programming errors (called bugs), security flaws, and improvements to the system. In order to install a service pack, you must go to windows.microsoft.com. Next, you should review the release notes for any potential issues you may face. When you are ready, download the proper service pack for your version of Windows. Then, back up your current data. After backing up the data, install the service pack by running the installation utility downloaded. Windows 7 will continue to receive updates and bug fixes until January 14, 2020, when Microsoft has determined its support will stop as Windows 7 will reach “end of life” status.</p>
+<p></p><br />(軟體篇)準備安裝硬碟 << <a href='(軟體篇)準備安裝硬碟.html'>Previous</a> <a href='HW2.html'>Next</a> >> HW2</div>
+        
+    <!-- footer -->
+      <div class="container">
+        <div class="row pt-3 mx-auto">
+            <p>
+            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+            Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank" >Colorlib</a>
+            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+            </p>
+        </div>
+      </div>
+    <!-- for footer -->
+    
+        </div> <!-- for site wrap -->
+            <!-- <script src="../cmsimde/static/chimper/js/jquery-3.3.1.min.js"></script> -->
+            <script src="../cmsimde/static/chimper/js/jquery-migrate-3.0.1.min.js"></script>
+            <script src="../cmsimde/static/chimper/js/jquery-ui.js"></script>
+            <script src="../cmsimde/static/chimper/js/popper.min.js"></script>
+            <script src="../cmsimde/static/chimper/js/bootstrap.min.js"></script>
+            <script src="../cmsimde/static/chimper/js/owl.carousel.min.js"></script>
+            <script src="../cmsimde/static/chimper/js/jquery.stellar.min.js"></script>
+            <script src="../cmsimde/static/chimper/js/jquery.countdown.min.js"></script>
+            <script src="../cmsimde/static/chimper/js/jquery.magnific-popup.min.js"></script>
+            <script src="../cmsimde/static/chimper/js/bootstrap-datepicker.min.js"></script>
+            <script src="../cmsimde/static/chimper/js/aos.js"></script>
+            <!--
+            <script src="../cmsimde/static/chimper/js/typed.js"></script>
+                    <script>
+                    var typed = new Typed('.typed-words', {
+                    strings: ["Web Apps"," WordPress"," Mobile Apps"],
+                    typeSpeed: 80,
+                    backSpeed: 80,
+                    backDelay: 4000,
+                    startDelay: 1000,
+                    loop: true,
+                    showCursor: true
+                    });
+                    </script>
+            -->
+            <script src="../cmsimde/static/chimper/js/main.js"></script>
+        
+<!-- 啟用 LaTeX equations 編輯 -->
+  <!-- <script>
+  MathJax = {
+    tex: {inlineMath: [['$', '$'], ['\(', '\)']]}
+  };
+  </script>
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>-->
+    </body></html>
+        

@@ -1,0 +1,194 @@
+<!DOCTYPE html><html>
+        <head>
+        <title>CMSiMDE</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700,900" rel="stylesheet">
+        <link rel="stylesheet" href="./../cmsimde/static/chimper/fonts/icomoon/style.css">
+        <link rel="stylesheet" href="./../cmsimde/static/chimper/css/bootstrap.min.css">
+        <link rel="stylesheet" href="./../cmsimde/static/chimper/css/magnific-popup.css">
+        <link rel="stylesheet" href="./../cmsimde/static/chimper/css/jquery-ui.css">
+        <link rel="stylesheet" href="./../cmsimde/static/chimper/css/owl.carousel.min.css">
+        <link rel="stylesheet" href="./../cmsimde/static/chimper/css/owl.theme.default.min.css">
+        <link rel="stylesheet" href="./../cmsimde/static/chimper/css/bootstrap-datepicker.css">
+        <link rel="stylesheet" href="./../cmsimde/static/chimper/fonts/flaticon/font/flaticon.css">
+        <link rel="stylesheet" href="./../cmsimde/static/chimper/css/aos.css">
+        <link rel="stylesheet" href="./../cmsimde/static/chimper/css/style.css">
+        <link rel="shortcut icon" href="./../cmsimde/static/favicons.png">
+        
+        <style type='text/css'>
+            .site-section {
+            background-color: #FFFF;
+            padding: 40px 40px;
+            }
+            body > div > div.dropdown.open {
+                display: block;
+            }
+        </style>
+    
+        <!-- <script src="./../cmsimde/static/jquery.js"></script> -->
+        <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> -->
+        <script src="../cmsimde/static/chimper/js/jquery-3.3.1.min.js"></script>
+        <link rel="stylesheet" href="./../cmsimde/static/tipuesearch/css/normalize.min.css">
+        <script src="./../cmsimde/static/tipuesearch/tipuesearch_set.js"></script>
+        <script src="tipuesearch_content.js"></script>
+        <link rel="stylesheet" href="./../cmsimde/static/tipuesearch/css/tipuesearch.css">
+        <script src="./../cmsimde/static/tipuesearch/tipuesearch.js"></script>
+        <script>
+            /* original tipuesearch
+            $(document).ready(function() {
+                 $('#tipue_search_input').tipuesearch();
+            });
+            */
+            // customed doSearch
+            function doSearch() {
+                $('#tipue_search_input').tipuesearch({
+                    newWindow: true, 
+                    minimumLength: 2,
+                    wholeWords: false, // for search 中文
+                });
+            }
+            $(document).ready(doSearch);
+        </script>
+        
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shCore.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushBash.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushDiff.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushJScript.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushJava.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushPython.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushSql.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushHaxe.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushXml.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushPhp.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushLua.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushCpp.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushCss.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushCSharp.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushDart.js"></script>
+<link type="text/css" rel="stylesheet" href="./../cmsimde/static/syntaxhighlighter/css/shCoreDefault.css"/>
+<script type="text/javascript">SyntaxHighlighter.all();</script>
+<!-- 暫時不用
+<script src="./../cmsimde/static/fengari-web.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/Cango-13v08-min.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/CangoAxes-4v01-min.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/gearUtils-05.js"></script>
+-->
+<!-- for Brython 暫時不用
+<script src="https://scrum-3.github.io/web/brython/brython.js"></script>
+<script src="https://scrum-3.github.io/web/brython/brython_stdlib.js"></script>
+-->
+<style>
+img.add_border {
+    border: 3px solid blue;
+}
+</style>
+
+</head>
+<body>
+<div class='container'><nav>
+        
+    <div class="site-wrap">
+
+    <div class="site-mobile-menu">
+      <div class="site-mobile-menu-header">
+        <div class="site-mobile-menu-close mt-3">
+          <span class="icon-close2 js-menu-toggle"></span>
+        </div>
+      </div>
+      <div class="site-mobile-menu-body"></div>
+    </div>
+    
+            <header class="site-navbar py-4 bg-white" role="banner">
+              <div class="container-fluid">
+                <div class="row align-items-center">
+                <h1>40623219 cp2020</h1>
+                <div class="pl-4">
+                    <form>
+                    <input type="text" placeholder="Search" name="q" id="tipue_search_input" pattern=".{2,}" title="At least 2 characters" required>
+                    </form>
+                </div>
+                  <!-- <div class="col-11 col-xl-2">
+                    <h1 class="mb-0 site-logo"><a href="index.html" class="text-black h2 mb-0">40623219 cp2020</a></h1> 
+                  </div>
+                  -->
+                  <div class="col-12 col-md-10 d-none d-xl-block">
+                    <nav class="site-navigation position-relative text-right" role="navigation">
+    <ul class='site-menu js-clone-nav mr-auto d-none d-lg-block'>
+                        <li class="active has-children"><a href="index.html">Home</a>
+                        <ul class="dropdown">
+                            <li><a href="sitemap.html">Site Map</a></li>
+                            <li><a href="./../reveal/index.html">reveal</a></li>
+                            <li><a href="./../blog/index.html">blog</a></li>
+                        </ul>
+                      </li>
+                     <li class='has-children'><a href='主頁.html'>主頁</a><ul class='dropdown'><li><a href='cmsimde網誌管理.html'>cmsimde網誌管理</a><li><a href='Develop.html'>Develop</a></li></ul><li class='has-children'><a href='紀錄.html'>紀錄</a><ul class='dropdown'><li><a href='W1.html'>W1</a><li><a href='W2.html'>W2</a><li><a href='W3.html'>W3</a><li><a href='W4.html'>W4</a><li><a href='W5.html'>W5</a><li><a href='W6.html'>W6</a><li><a href='W7.html'>W7</a><li><a href='W8.html'>W8</a><li><a href='W9.html'>W9</a><li><a href='W10.html'>W10</a><li><a href='W11.html'>W11</a><li><a href='W12.html'>W12</a><li><a href='W13.html'>W13</a><li><a href='W14.html'>W14</a><li><a href='W15.html'>W15</a><li><a href='W16.html'>W16</a><li><a href='W17.html'>W17</a></li></ul><li class='has-children'><a href='HW1.html'>HW1</a><ul class='dropdown'><li><a href='(硬體篇)學習的策略.html'>(硬體篇)學習的策略</a><li><a href='(硬體篇)適當的規劃.html'>(硬體篇)適當的規劃</a><li><a href='(硬體篇)發展自主學習技能.html'>(硬體篇)發展自主學習技能</a><li><a href='(硬體篇)元認知技巧.html'>(硬體篇)元認知技巧</a><li><a href='(硬體篇)目錄.html'>(硬體篇)目錄</a><li><a href='(硬體篇)介紹.html'>(硬體篇)介紹</a><li><a href='(硬體篇)電腦計算機功能1輸入2輸出3儲存和處理.html'>(硬體篇)電腦計算機功能1輸入2輸出3儲存和處理</a><li><a href='(硬體篇)硬體.html'>(硬體篇)硬體</a><li><a href='(硬體篇)軟體.html'>(硬體篇)軟體</a><li><a href='(硬體篇)固件.html'>(硬體篇)固件</a><li><a href='(硬體篇)組件化and標準化.html'>(硬體篇)組件化and標準化</a><li><a href='(硬體篇)連接接口和電線.html'>(硬體篇)連接接口和電線</a><li><a href='(軟體篇)Windows 操作系統.html'>(軟體篇)Windows 操作系統</a><li><a href='(軟體篇)Windows vista 操作系統.html'>(軟體篇)Windows vista 操作系統</a><li><a href='(軟體篇)Windows 7操作系統.html'>(軟體篇)Windows 7操作系統</a><li><a href='(軟體篇)Windows 8操作系統.html'>(軟體篇)Windows 8操作系統</a><li><a href='(軟體篇)Windows 10操作系統.html'>(軟體篇)Windows 10操作系統</a><li><a href='(軟體篇)安裝Windows.html'>(軟體篇)安裝Windows</a><li><a href='(軟體篇)準備安裝硬碟.html'>(軟體篇)準備安裝硬碟</a><li><a href='(軟體篇)劃分磁碟區.html'>(軟體篇)劃分磁碟區</a></li></ul><li><a href='HW2.html'>HW2</a><li><a href='HW3.html'>HW3</a></li>
+                      </ul>
+                </nav>
+              </div>
+              <div class="d-inline-block d-xl-none ml-md-0 mr-auto py-3" style="position: relative; top: 3px;"><a href="#" class="site-menu-toggle js-menu-toggle text-black"><span class="icon-menu h3"></span></a></div>
+              </div>
+
+            </div>
+          </div>
+          
+        </header>
+    <div id="tipue_search_content">(軟體篇)Windows vista 操作系統 << <a href='(軟體篇)Windows vista 操作系統.html'>Previous</a> <a href='(軟體篇)Windows 8操作系統.html'>Next</a> >> (軟體篇)Windows 8操作系統<br /><h1>(軟體篇)Windows 7操作系統</h1>
+<p>總覽<br/>Windows 7設計在Windows Vista中引入的許多技術上進行了改進，並改善了消費者的總體操作系統體驗。 Win7於2009年發布，是微軟對消費者明顯不喜歡Vista的一種回應，同時提供了可在多種平台上運行的強大，安全的消費者級操作系統，包括基於Apple Intel的計算機和Tablet PC。像Vista一樣，Win7設計的改進是使IT部門的操作系統部署和管理更加有效和安全。</p>
+<p>Overview<br/>Windows 7 design improved on many technologies introduced in Windows Vista and improved the overall OS experience for consumers. Released in 2009, Win7 was Microsoft’s response to consumers’ apparent dislike of Vista, while at the same time providing a robust, secure consumer grade OS that would run on multiple platforms including Apple Intel-based computer’s and Tablet PC’s. Like Vista, the improvements in Win7’s design were to make OS deployment and management more efficient and secure for IT departments.</p>
+<p>總體而言，Win7成為了微軟希望Vista成為替代WinXP的工具。 Vista的一些主要功能包括改進的帶有索引的Windows搜索（位於“開始”菜單中的搜索框），用戶帳戶訪問（UAC），Aero功能和BitLocker。 Win7中包含的一些改進是清理後的任務欄，其中刪除了“快速啟動”，添加了“固定應用程序”以及將“顯示桌面”移至系統托盤的最右邊。默認情況下，稱為庫的特殊快捷方式旨在將來自多個來源的文檔，圖片和視頻組合在一起，只要它們可以被索引。包括Homegroup網絡基礎架構在內的網絡支持和安全性得到了改善，該網絡基礎架構允許對等LAN網段更輕鬆地共享文件，媒體和打印服務。 Win7還增加了對平板電腦，SSD技術和生物識別的專門支持。</p>
+<p>Overall, Win7 became what Microsoft hoped Vista would be – as replacement for WinXP. Some of the main features continued from Vista include a refined Windows Search with Indexing (search box located in Start Menu), User Account Access (UAC), Aero features, and BitLocker. Some of the improvements included in Win7 are a cleaned up taskbar removing the Quick Launch, adding Pinned Applications, and moving Show Desktop to the far right of the System Tray. Specialized shortcuts called Libraries are designed by default to bring Documents, Pictures, and Videos together from multiple sources provided they can be indexed. Networking support and security is improved including the Homegroup networking infrastructure which allows a peer-to-peer LAN segment to more easily share files, media and print services. Win7 also added support specifically for tablets, SSD technology, and Biometric Authentication.</p>
+<p>Windows Win7：版本和版本<br/>Microsoft繼續使用與Vista中類似的命名結構，並發布了六個版本的Win7。但是，與XP和Vista不同的是，簡化版現已可供全球原始設備製造商（OEM）使用，而Home Basic則保留給新興經濟市場使用。四個零售版本分別是Home Basic，Home Premium，Professional和Ultimate。企業版仍命名為Enterprise。 Win7 Enterprise僅可通過使用批量許可證密鑰激活的Microsoft軟件保障購買。</p>
+<p>Windows Win7: Versions and Editions<br/>Microsoft continued with similar naming structure as in Vista and released six editions of Win7. However, unlike XP and Vista, the Starter Edition was now available to Original Equipment Manufacturers (OEMs) worldwide and Home Basic was reserved for emerging economic markets. The four Retail Editions are Home Basic, Home Premium, Professional, and Ultimate; with the Corporate Edition still named Enterprise. Win7 Enterprise is only available for purchase through Microsoft Software Assurance using Volume License Key activation.</p>
+<p></p>
+<br />(軟體篇)Windows vista 操作系統 << <a href='(軟體篇)Windows vista 操作系統.html'>Previous</a> <a href='(軟體篇)Windows 8操作系統.html'>Next</a> >> (軟體篇)Windows 8操作系統</div>
+        
+    <!-- footer -->
+      <div class="container">
+        <div class="row pt-3 mx-auto">
+            <p>
+            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+            Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank" >Colorlib</a>
+            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+            </p>
+        </div>
+      </div>
+    <!-- for footer -->
+    
+        </div> <!-- for site wrap -->
+            <!-- <script src="../cmsimde/static/chimper/js/jquery-3.3.1.min.js"></script> -->
+            <script src="../cmsimde/static/chimper/js/jquery-migrate-3.0.1.min.js"></script>
+            <script src="../cmsimde/static/chimper/js/jquery-ui.js"></script>
+            <script src="../cmsimde/static/chimper/js/popper.min.js"></script>
+            <script src="../cmsimde/static/chimper/js/bootstrap.min.js"></script>
+            <script src="../cmsimde/static/chimper/js/owl.carousel.min.js"></script>
+            <script src="../cmsimde/static/chimper/js/jquery.stellar.min.js"></script>
+            <script src="../cmsimde/static/chimper/js/jquery.countdown.min.js"></script>
+            <script src="../cmsimde/static/chimper/js/jquery.magnific-popup.min.js"></script>
+            <script src="../cmsimde/static/chimper/js/bootstrap-datepicker.min.js"></script>
+            <script src="../cmsimde/static/chimper/js/aos.js"></script>
+            <!--
+            <script src="../cmsimde/static/chimper/js/typed.js"></script>
+                    <script>
+                    var typed = new Typed('.typed-words', {
+                    strings: ["Web Apps"," WordPress"," Mobile Apps"],
+                    typeSpeed: 80,
+                    backSpeed: 80,
+                    backDelay: 4000,
+                    startDelay: 1000,
+                    loop: true,
+                    showCursor: true
+                    });
+                    </script>
+            -->
+            <script src="../cmsimde/static/chimper/js/main.js"></script>
+        
+<!-- 啟用 LaTeX equations 編輯 -->
+  <!-- <script>
+  MathJax = {
+    tex: {inlineMath: [['$', '$'], ['\(', '\)']]}
+  };
+  </script>
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>-->
+    </body></html>
+        

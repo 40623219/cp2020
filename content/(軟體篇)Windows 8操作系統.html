@@ -1,0 +1,208 @@
+<!DOCTYPE html><html>
+        <head>
+        <title>CMSiMDE</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700,900" rel="stylesheet">
+        <link rel="stylesheet" href="./../cmsimde/static/chimper/fonts/icomoon/style.css">
+        <link rel="stylesheet" href="./../cmsimde/static/chimper/css/bootstrap.min.css">
+        <link rel="stylesheet" href="./../cmsimde/static/chimper/css/magnific-popup.css">
+        <link rel="stylesheet" href="./../cmsimde/static/chimper/css/jquery-ui.css">
+        <link rel="stylesheet" href="./../cmsimde/static/chimper/css/owl.carousel.min.css">
+        <link rel="stylesheet" href="./../cmsimde/static/chimper/css/owl.theme.default.min.css">
+        <link rel="stylesheet" href="./../cmsimde/static/chimper/css/bootstrap-datepicker.css">
+        <link rel="stylesheet" href="./../cmsimde/static/chimper/fonts/flaticon/font/flaticon.css">
+        <link rel="stylesheet" href="./../cmsimde/static/chimper/css/aos.css">
+        <link rel="stylesheet" href="./../cmsimde/static/chimper/css/style.css">
+        <link rel="shortcut icon" href="./../cmsimde/static/favicons.png">
+        
+        <style type='text/css'>
+            .site-section {
+            background-color: #FFFF;
+            padding: 40px 40px;
+            }
+            body > div > div.dropdown.open {
+                display: block;
+            }
+        </style>
+    
+        <!-- <script src="./../cmsimde/static/jquery.js"></script> -->
+        <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> -->
+        <script src="../cmsimde/static/chimper/js/jquery-3.3.1.min.js"></script>
+        <link rel="stylesheet" href="./../cmsimde/static/tipuesearch/css/normalize.min.css">
+        <script src="./../cmsimde/static/tipuesearch/tipuesearch_set.js"></script>
+        <script src="tipuesearch_content.js"></script>
+        <link rel="stylesheet" href="./../cmsimde/static/tipuesearch/css/tipuesearch.css">
+        <script src="./../cmsimde/static/tipuesearch/tipuesearch.js"></script>
+        <script>
+            /* original tipuesearch
+            $(document).ready(function() {
+                 $('#tipue_search_input').tipuesearch();
+            });
+            */
+            // customed doSearch
+            function doSearch() {
+                $('#tipue_search_input').tipuesearch({
+                    newWindow: true, 
+                    minimumLength: 2,
+                    wholeWords: false, // for search 中文
+                });
+            }
+            $(document).ready(doSearch);
+        </script>
+        
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shCore.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushBash.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushDiff.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushJScript.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushJava.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushPython.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushSql.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushHaxe.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushXml.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushPhp.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushLua.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushCpp.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushCss.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushCSharp.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushDart.js"></script>
+<link type="text/css" rel="stylesheet" href="./../cmsimde/static/syntaxhighlighter/css/shCoreDefault.css"/>
+<script type="text/javascript">SyntaxHighlighter.all();</script>
+<!-- 暫時不用
+<script src="./../cmsimde/static/fengari-web.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/Cango-13v08-min.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/CangoAxes-4v01-min.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/gearUtils-05.js"></script>
+-->
+<!-- for Brython 暫時不用
+<script src="https://scrum-3.github.io/web/brython/brython.js"></script>
+<script src="https://scrum-3.github.io/web/brython/brython_stdlib.js"></script>
+-->
+<style>
+img.add_border {
+    border: 3px solid blue;
+}
+</style>
+
+</head>
+<body>
+<div class='container'><nav>
+        
+    <div class="site-wrap">
+
+    <div class="site-mobile-menu">
+      <div class="site-mobile-menu-header">
+        <div class="site-mobile-menu-close mt-3">
+          <span class="icon-close2 js-menu-toggle"></span>
+        </div>
+      </div>
+      <div class="site-mobile-menu-body"></div>
+    </div>
+    
+            <header class="site-navbar py-4 bg-white" role="banner">
+              <div class="container-fluid">
+                <div class="row align-items-center">
+                <h1>40623219 cp2020</h1>
+                <div class="pl-4">
+                    <form>
+                    <input type="text" placeholder="Search" name="q" id="tipue_search_input" pattern=".{2,}" title="At least 2 characters" required>
+                    </form>
+                </div>
+                  <!-- <div class="col-11 col-xl-2">
+                    <h1 class="mb-0 site-logo"><a href="index.html" class="text-black h2 mb-0">40623219 cp2020</a></h1> 
+                  </div>
+                  -->
+                  <div class="col-12 col-md-10 d-none d-xl-block">
+                    <nav class="site-navigation position-relative text-right" role="navigation">
+    <ul class='site-menu js-clone-nav mr-auto d-none d-lg-block'>
+                        <li class="active has-children"><a href="index.html">Home</a>
+                        <ul class="dropdown">
+                            <li><a href="sitemap.html">Site Map</a></li>
+                            <li><a href="./../reveal/index.html">reveal</a></li>
+                            <li><a href="./../blog/index.html">blog</a></li>
+                        </ul>
+                      </li>
+                     <li class='has-children'><a href='主頁.html'>主頁</a><ul class='dropdown'><li><a href='cmsimde網誌管理.html'>cmsimde網誌管理</a><li><a href='Develop.html'>Develop</a></li></ul><li class='has-children'><a href='紀錄.html'>紀錄</a><ul class='dropdown'><li><a href='W1.html'>W1</a><li><a href='W2.html'>W2</a><li><a href='W3.html'>W3</a><li><a href='W4.html'>W4</a><li><a href='W5.html'>W5</a><li><a href='W6.html'>W6</a><li><a href='W7.html'>W7</a><li><a href='W8.html'>W8</a><li><a href='W9.html'>W9</a><li><a href='W10.html'>W10</a><li><a href='W11.html'>W11</a><li><a href='W12.html'>W12</a><li><a href='W13.html'>W13</a><li><a href='W14.html'>W14</a><li><a href='W15.html'>W15</a><li><a href='W16.html'>W16</a><li><a href='W17.html'>W17</a></li></ul><li class='has-children'><a href='HW1.html'>HW1</a><ul class='dropdown'><li><a href='(硬體篇)學習的策略.html'>(硬體篇)學習的策略</a><li><a href='(硬體篇)適當的規劃.html'>(硬體篇)適當的規劃</a><li><a href='(硬體篇)發展自主學習技能.html'>(硬體篇)發展自主學習技能</a><li><a href='(硬體篇)元認知技巧.html'>(硬體篇)元認知技巧</a><li><a href='(硬體篇)目錄.html'>(硬體篇)目錄</a><li><a href='(硬體篇)介紹.html'>(硬體篇)介紹</a><li><a href='(硬體篇)電腦計算機功能1輸入2輸出3儲存和處理.html'>(硬體篇)電腦計算機功能1輸入2輸出3儲存和處理</a><li><a href='(硬體篇)硬體.html'>(硬體篇)硬體</a><li><a href='(硬體篇)軟體.html'>(硬體篇)軟體</a><li><a href='(硬體篇)固件.html'>(硬體篇)固件</a><li><a href='(硬體篇)組件化and標準化.html'>(硬體篇)組件化and標準化</a><li><a href='(硬體篇)連接接口和電線.html'>(硬體篇)連接接口和電線</a><li><a href='(軟體篇)Windows 操作系統.html'>(軟體篇)Windows 操作系統</a><li><a href='(軟體篇)Windows vista 操作系統.html'>(軟體篇)Windows vista 操作系統</a><li><a href='(軟體篇)Windows 7操作系統.html'>(軟體篇)Windows 7操作系統</a><li><a href='(軟體篇)Windows 8操作系統.html'>(軟體篇)Windows 8操作系統</a><li><a href='(軟體篇)Windows 10操作系統.html'>(軟體篇)Windows 10操作系統</a><li><a href='(軟體篇)安裝Windows.html'>(軟體篇)安裝Windows</a><li><a href='(軟體篇)準備安裝硬碟.html'>(軟體篇)準備安裝硬碟</a><li><a href='(軟體篇)劃分磁碟區.html'>(軟體篇)劃分磁碟區</a></li></ul><li><a href='HW2.html'>HW2</a><li><a href='HW3.html'>HW3</a></li>
+                      </ul>
+                </nav>
+              </div>
+              <div class="d-inline-block d-xl-none ml-md-0 mr-auto py-3" style="position: relative; top: 3px;"><a href="#" class="site-menu-toggle js-menu-toggle text-black"><span class="icon-menu h3"></span></a></div>
+              </div>
+
+            </div>
+          </div>
+          
+        </header>
+    <div id="tipue_search_content">(軟體篇)Windows 7操作系統 << <a href='(軟體篇)Windows 7操作系統.html'>Previous</a> <a href='(軟體篇)Windows 10操作系統.html'>Next</a> >> (軟體篇)Windows 10操作系統<br /><h1>(軟體篇)Windows 8操作系統</h1>
+<p>總覽<br/>微軟用Windows 8 / 8.1重組了Windows產品陣容，並且從根本上改變了Windows 7的用戶界面，以期預期移動設備市場的增長。 Windows 8 / 8.1具有本地觸摸屏功能，可容納平板電腦和Windows手機。</p>
+<p>本區討論Windows 8 / 8.1操作系統的四個不同版本和版本及其功能。 我們將探討Windows 8 / 8.1操作系統的最低要求，並學習如何安裝它。</p>
+<p>Overview<br/>Microsoft restructured the Windows product lineup with Windows 8/8.1, and radically altered the user interface from that of Windows 7 in anticipation of the growing mobile device market. Windows 8/8.1 is designed with native touchscreen ability to accommodate tablets and Windows phones.</p>
+<p>This module discusses the four different versions and editions of the Windows 8/8.1 operating system, along with its features. We will explore the minimum requirements for the Windows 8/8.1 operating system and learn how to install it.</p>
+<p><strong>Windows 8 / 8.1：版本和版本</strong><br/>Windows 8 / 8.1有四個不同版本，每個版本具有32位或64位版本，但Windows RT除外，後者僅在32位版本中可用：</p>
+<p>●Windows 8 / 8.1（有時稱為“核心”）</p>
+<p>●Windows 8 / 8.1 Pro</p>
+<p>●Windows 8 / 8.1企業版</p>
+<p>●Windows 8 / 8.1 RT（僅32位）</p>
+<p>Windows 8 / 8.1中的新增功能/更新功能<br/>Windows 8 / 8.1對Windows的早期版本進行了許多更改。其中一些變化得到了很好的接受；其他人則不如。我們將在下面討論一些次要更改，但首先要討論一個主要更改。在Windows 8中，Microsoft對桌面以及用戶與桌面的交互方式進行了重大更改。隨著平板電腦市場實力的增長以及蜂窩電話的融合（都受到觸摸屏的影響），微軟希望在Windows手機，平板電腦，筆記本電腦和台式機之間提供統一的界面。 Windows界面的這種重新構想稱為“ Metro”。</p>
+<p>New/Updated Features in Windows 8/8.1<br/>Windows 8/8.1 introduced quite a few changes from previous versions of Windows. Some of these changes were received well; others not as well. We’ll discuss some of the minor changes below, but let’s start by discussing a major change. With Windows 8, Microsoft made significant changes to the Desktop and the way users interact with it. With the strength of the tablet market growing and the convergence of cellular telephones, both heavily influenced by touchscreens, Microsoft wanted to offer a unified interface between Windows phones, tablets, laptops, and desktops. This reimagining of the Windows interface is called “Metro.”</p>
+<p>Metro接口<br/>Windows 8 / 8.1的最大變化是，登錄後，您將獲得全新的Metro界面，而不再是傳統的Windows桌面用戶的歡迎。此界面由標準應用程序驅動的圖塊組組成，並且Microsoft還包括僅通過Metro界面運行的新應用程序。這些磁貼中的一些包含靜態圖像，單擊這些靜態圖像將簡單地啟動整個應用程序，切換到傳統桌面，而其他一些則是“實時磁貼”，顯示來自應用程序的信息，例如天氣信息，照片或電子郵件通知。也提供兩種不同版本的Internet Explorer。在應用程序方面，Internet Explorer更易於觸摸，並且默認為閱讀模式，使其更適合移動設備。</p>
+<p><img alt="" height="379" src="./../images/image1 (1).png" width="518"/></p>
+<p><img alt="" height="322" src="./../images/image4.png" width="520"/></p>
+<p><strong>支持USB 3.0</strong><br/>Windows 8 / 8.1引入的高級更改之一是對USB 3.0的本機支持。 USB 3.0允許用戶連接許多不同類型的外圍設備-從打印機和掃描儀到相機，麥克風，耳機，電話等。 與USB 2.0相比，USB 3.0具有兩個顯著優勢。 首先，USB 3.0支持更快的數據傳輸速度：每秒5 GB，而USB 2.0最大每秒480 MB。 數據傳輸速度快了十倍多。 其次，USB 3.0為連接的設備提供比USB 2.0更大的功率，從而支持需要更多功率的新型外圍設備，並允許外部設備更快地充電。</p>
+<p>Support for USB 3.0<br/>One of the under-the-hood changes introduced with Windows 8/8.1 is native support for USB 3.0. USB 3.0 allows users to connect many different types of peripherals — from printers and scanners to cameras, microphones, headsets, phones, and more. USB 3.0 has two significant advantages over USB 2.0. First, USB 3.0 supports much faster data transfer: 5 GB per second, as opposed to the USB 2.0 max of 480 MB per second. That’s a little over ten times faster data transfer. Second, USB 3.0 provides more power to attached devices than USB 2.0, supporting newer peripherals that demand more power, and allows external devices to charge faster.</p>
+<p><strong>支持Microsoft帳戶</strong><br/>除了對界面進行重大更改之外，Microsoft還對用戶帳戶進行了重要更改。用戶現在可以選擇創建本地帳戶或連接到在線Microsoft帳戶。本地帳戶是特定於計算機的，並且以前受Windows以前版本的支持。用戶名和密碼帳戶位於標準對等網絡中的特定計算機上，或者在受管企業網絡的情況下，特定於域帳戶數據庫中的用戶。</p>
+<p>Support for Microsoft Accounts<br/>In addition to a radical change to the interface, Microsoft introduced an important change to user accounts. Users now have the option to either create a local account or connect to an online Microsoft account. Local accounts are machine specific and are traditionally supported by previous versions of Windows. The username and password account resides on a specific computer in a standard peer-to-peer network, or, in the case of a managed Enterprise network, is specific to the user in the domain account database.</p>
+<p>另一方面，使用Microsoft帳戶是具有MSN，Outlook或Hotmail帳戶的所有Windows用戶可用的一項新功能，並且與企業域帳戶具有相似的功能，因為用戶設置與登錄信息一起使用。您可以使用任何先前列出的MSN電子郵件帳戶的登錄信息，也可以在https：// www上設置新帳戶。微軟。 com / zh-我們/帳戶/。現在，這可以將您在任何Windows 8 / 8.1計算機上的用戶設置鏈接到Microsoft服務，例如電子郵件，XBox Live，桌面設置，從Windows應用商店安裝的應用程序以及OneDrive。使用Microsoft帳戶登錄的優點是，無論您在哪里工作，都可以訪問OneDrive上的所有文件，並且具有相同的外觀。除了使用與帳戶關聯的默認密碼外，用戶還可以選擇在平板電腦上添加四位數的PIN或圖片密碼。 PIN的優點在於，您無需鍵入密碼即可訪問所有服務，從而增加了一層安全保護，並且登錄速度更快。圖片密碼使用觸摸技術在設置時選擇圖片的區域。同樣，這消除了使用全局帳戶密碼的風險。下面的第二個屏幕截圖顯示了您可以選擇同步的項目。</p>
+<p>Using a Microsoft account, on the other hand, is a new feature available to all Windows users with an MSN, Outlook, or Hotmail account, and has similar features as an Enterprise domain account because the user settings go with the login information. You can use the login information for any of the previously listed MSN email accounts, or you can set up a new account athttps :// www . microsoft . com / en - us / account /. This now links your user settings on any Windows 8/8.1 machine for such Microsoft services as email, XBox Live, Desktop settings, apps installed from the Windows store, and OneDrive. The advantage to using your Microsoft account to login is that you have access to all files on OneDrive as well as having the same look and feel regardless of where you are working. In addition to using the default password associated with the account, the user can opt to add a four-digit PIN, or a picture password on a tablet. The advantage of the PIN is that you are adding a layer of security by not having to type the password to access all of your services, and it is a quicker login. The picture password uses touch technology to select a region of the picture as you set it. Again, this eliminates the exposure of using the global account password. The second screenshot below shows the items you can elect to synchronize.</p>
+<p></p>
+<br />(軟體篇)Windows 7操作系統 << <a href='(軟體篇)Windows 7操作系統.html'>Previous</a> <a href='(軟體篇)Windows 10操作系統.html'>Next</a> >> (軟體篇)Windows 10操作系統</div>
+        
+    <!-- footer -->
+      <div class="container">
+        <div class="row pt-3 mx-auto">
+            <p>
+            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+            Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank" >Colorlib</a>
+            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+            </p>
+        </div>
+      </div>
+    <!-- for footer -->
+    
+        </div> <!-- for site wrap -->
+            <!-- <script src="../cmsimde/static/chimper/js/jquery-3.3.1.min.js"></script> -->
+            <script src="../cmsimde/static/chimper/js/jquery-migrate-3.0.1.min.js"></script>
+            <script src="../cmsimde/static/chimper/js/jquery-ui.js"></script>
+            <script src="../cmsimde/static/chimper/js/popper.min.js"></script>
+            <script src="../cmsimde/static/chimper/js/bootstrap.min.js"></script>
+            <script src="../cmsimde/static/chimper/js/owl.carousel.min.js"></script>
+            <script src="../cmsimde/static/chimper/js/jquery.stellar.min.js"></script>
+            <script src="../cmsimde/static/chimper/js/jquery.countdown.min.js"></script>
+            <script src="../cmsimde/static/chimper/js/jquery.magnific-popup.min.js"></script>
+            <script src="../cmsimde/static/chimper/js/bootstrap-datepicker.min.js"></script>
+            <script src="../cmsimde/static/chimper/js/aos.js"></script>
+            <!--
+            <script src="../cmsimde/static/chimper/js/typed.js"></script>
+                    <script>
+                    var typed = new Typed('.typed-words', {
+                    strings: ["Web Apps"," WordPress"," Mobile Apps"],
+                    typeSpeed: 80,
+                    backSpeed: 80,
+                    backDelay: 4000,
+                    startDelay: 1000,
+                    loop: true,
+                    showCursor: true
+                    });
+                    </script>
+            -->
+            <script src="../cmsimde/static/chimper/js/main.js"></script>
+        
+<!-- 啟用 LaTeX equations 編輯 -->
+  <!-- <script>
+  MathJax = {
+    tex: {inlineMath: [['$', '$'], ['\(', '\)']]}
+  };
+  </script>
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>-->
+    </body></html>
+        

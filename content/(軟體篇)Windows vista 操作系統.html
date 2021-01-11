@@ -1,0 +1,217 @@
+<!DOCTYPE html><html>
+        <head>
+        <title>CMSiMDE</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700,900" rel="stylesheet">
+        <link rel="stylesheet" href="./../cmsimde/static/chimper/fonts/icomoon/style.css">
+        <link rel="stylesheet" href="./../cmsimde/static/chimper/css/bootstrap.min.css">
+        <link rel="stylesheet" href="./../cmsimde/static/chimper/css/magnific-popup.css">
+        <link rel="stylesheet" href="./../cmsimde/static/chimper/css/jquery-ui.css">
+        <link rel="stylesheet" href="./../cmsimde/static/chimper/css/owl.carousel.min.css">
+        <link rel="stylesheet" href="./../cmsimde/static/chimper/css/owl.theme.default.min.css">
+        <link rel="stylesheet" href="./../cmsimde/static/chimper/css/bootstrap-datepicker.css">
+        <link rel="stylesheet" href="./../cmsimde/static/chimper/fonts/flaticon/font/flaticon.css">
+        <link rel="stylesheet" href="./../cmsimde/static/chimper/css/aos.css">
+        <link rel="stylesheet" href="./../cmsimde/static/chimper/css/style.css">
+        <link rel="shortcut icon" href="./../cmsimde/static/favicons.png">
+        
+        <style type='text/css'>
+            .site-section {
+            background-color: #FFFF;
+            padding: 40px 40px;
+            }
+            body > div > div.dropdown.open {
+                display: block;
+            }
+        </style>
+    
+        <!-- <script src="./../cmsimde/static/jquery.js"></script> -->
+        <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> -->
+        <script src="../cmsimde/static/chimper/js/jquery-3.3.1.min.js"></script>
+        <link rel="stylesheet" href="./../cmsimde/static/tipuesearch/css/normalize.min.css">
+        <script src="./../cmsimde/static/tipuesearch/tipuesearch_set.js"></script>
+        <script src="tipuesearch_content.js"></script>
+        <link rel="stylesheet" href="./../cmsimde/static/tipuesearch/css/tipuesearch.css">
+        <script src="./../cmsimde/static/tipuesearch/tipuesearch.js"></script>
+        <script>
+            /* original tipuesearch
+            $(document).ready(function() {
+                 $('#tipue_search_input').tipuesearch();
+            });
+            */
+            // customed doSearch
+            function doSearch() {
+                $('#tipue_search_input').tipuesearch({
+                    newWindow: true, 
+                    minimumLength: 2,
+                    wholeWords: false, // for search 中文
+                });
+            }
+            $(document).ready(doSearch);
+        </script>
+        
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shCore.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushBash.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushDiff.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushJScript.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushJava.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushPython.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushSql.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushHaxe.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushXml.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushPhp.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushLua.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushCpp.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushCss.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushCSharp.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushDart.js"></script>
+<link type="text/css" rel="stylesheet" href="./../cmsimde/static/syntaxhighlighter/css/shCoreDefault.css"/>
+<script type="text/javascript">SyntaxHighlighter.all();</script>
+<!-- 暫時不用
+<script src="./../cmsimde/static/fengari-web.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/Cango-13v08-min.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/CangoAxes-4v01-min.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/gearUtils-05.js"></script>
+-->
+<!-- for Brython 暫時不用
+<script src="https://scrum-3.github.io/web/brython/brython.js"></script>
+<script src="https://scrum-3.github.io/web/brython/brython_stdlib.js"></script>
+-->
+<style>
+img.add_border {
+    border: 3px solid blue;
+}
+</style>
+
+</head>
+<body>
+<div class='container'><nav>
+        
+    <div class="site-wrap">
+
+    <div class="site-mobile-menu">
+      <div class="site-mobile-menu-header">
+        <div class="site-mobile-menu-close mt-3">
+          <span class="icon-close2 js-menu-toggle"></span>
+        </div>
+      </div>
+      <div class="site-mobile-menu-body"></div>
+    </div>
+    
+            <header class="site-navbar py-4 bg-white" role="banner">
+              <div class="container-fluid">
+                <div class="row align-items-center">
+                <h1>40623219 cp2020</h1>
+                <div class="pl-4">
+                    <form>
+                    <input type="text" placeholder="Search" name="q" id="tipue_search_input" pattern=".{2,}" title="At least 2 characters" required>
+                    </form>
+                </div>
+                  <!-- <div class="col-11 col-xl-2">
+                    <h1 class="mb-0 site-logo"><a href="index.html" class="text-black h2 mb-0">40623219 cp2020</a></h1> 
+                  </div>
+                  -->
+                  <div class="col-12 col-md-10 d-none d-xl-block">
+                    <nav class="site-navigation position-relative text-right" role="navigation">
+    <ul class='site-menu js-clone-nav mr-auto d-none d-lg-block'>
+                        <li class="active has-children"><a href="index.html">Home</a>
+                        <ul class="dropdown">
+                            <li><a href="sitemap.html">Site Map</a></li>
+                            <li><a href="./../reveal/index.html">reveal</a></li>
+                            <li><a href="./../blog/index.html">blog</a></li>
+                        </ul>
+                      </li>
+                     <li class='has-children'><a href='主頁.html'>主頁</a><ul class='dropdown'><li><a href='cmsimde網誌管理.html'>cmsimde網誌管理</a><li><a href='Develop.html'>Develop</a></li></ul><li class='has-children'><a href='紀錄.html'>紀錄</a><ul class='dropdown'><li><a href='W1.html'>W1</a><li><a href='W2.html'>W2</a><li><a href='W3.html'>W3</a><li><a href='W4.html'>W4</a><li><a href='W5.html'>W5</a><li><a href='W6.html'>W6</a><li><a href='W7.html'>W7</a><li><a href='W8.html'>W8</a><li><a href='W9.html'>W9</a><li><a href='W10.html'>W10</a><li><a href='W11.html'>W11</a><li><a href='W12.html'>W12</a><li><a href='W13.html'>W13</a><li><a href='W14.html'>W14</a><li><a href='W15.html'>W15</a><li><a href='W16.html'>W16</a><li><a href='W17.html'>W17</a></li></ul><li class='has-children'><a href='HW1.html'>HW1</a><ul class='dropdown'><li><a href='(硬體篇)學習的策略.html'>(硬體篇)學習的策略</a><li><a href='(硬體篇)適當的規劃.html'>(硬體篇)適當的規劃</a><li><a href='(硬體篇)發展自主學習技能.html'>(硬體篇)發展自主學習技能</a><li><a href='(硬體篇)元認知技巧.html'>(硬體篇)元認知技巧</a><li><a href='(硬體篇)目錄.html'>(硬體篇)目錄</a><li><a href='(硬體篇)介紹.html'>(硬體篇)介紹</a><li><a href='(硬體篇)電腦計算機功能1輸入2輸出3儲存和處理.html'>(硬體篇)電腦計算機功能1輸入2輸出3儲存和處理</a><li><a href='(硬體篇)硬體.html'>(硬體篇)硬體</a><li><a href='(硬體篇)軟體.html'>(硬體篇)軟體</a><li><a href='(硬體篇)固件.html'>(硬體篇)固件</a><li><a href='(硬體篇)組件化and標準化.html'>(硬體篇)組件化and標準化</a><li><a href='(硬體篇)連接接口和電線.html'>(硬體篇)連接接口和電線</a><li><a href='(軟體篇)Windows 操作系統.html'>(軟體篇)Windows 操作系統</a><li><a href='(軟體篇)Windows vista 操作系統.html'>(軟體篇)Windows vista 操作系統</a><li><a href='(軟體篇)Windows 7操作系統.html'>(軟體篇)Windows 7操作系統</a><li><a href='(軟體篇)Windows 8操作系統.html'>(軟體篇)Windows 8操作系統</a><li><a href='(軟體篇)Windows 10操作系統.html'>(軟體篇)Windows 10操作系統</a><li><a href='(軟體篇)安裝Windows.html'>(軟體篇)安裝Windows</a><li><a href='(軟體篇)準備安裝硬碟.html'>(軟體篇)準備安裝硬碟</a><li><a href='(軟體篇)劃分磁碟區.html'>(軟體篇)劃分磁碟區</a></li></ul><li><a href='HW2.html'>HW2</a><li><a href='HW3.html'>HW3</a></li>
+                      </ul>
+                </nav>
+              </div>
+              <div class="d-inline-block d-xl-none ml-md-0 mr-auto py-3" style="position: relative; top: 3px;"><a href="#" class="site-menu-toggle js-menu-toggle text-black"><span class="icon-menu h3"></span></a></div>
+              </div>
+
+            </div>
+          </div>
+          
+        </header>
+    <div id="tipue_search_content">(軟體篇)Windows 操作系統 << <a href='(軟體篇)Windows 操作系統.html'>Previous</a> <a href='(軟體篇)Windows 7操作系統.html'>Next</a> >> (軟體篇)Windows 7操作系統<br /><h1>(軟體篇)Windows vista 操作系統</h1>
+<p>總覽<br/>Windows Vista旨在取代Windows XP，這是Microsoft發布的最流行和最可靠的操作系統。 Vista於2007年發布，是微軟對家庭計算性質不斷變化的回應，包括網絡和數字媒體訪問，以及Internet的廣泛變化，不僅用於數據檢索，還用於Web 2.0，商業和媒體流。 在業務方面，Vista的設計旨在為IT部門提高OS部署和管理的效率和安全性。 總體而言，Vista並不是出於很多原因而取代WinXP，但是它確實引入了許多新功能，這些新功能在Windows 7中仍然存在，並已成為Windows 8.1和Windows 10後續版本中的標準功能，包括帶有索引的Windows搜索（位於“開始”中的搜索框 菜單），用戶帳戶訪問權限（UAC），Aero功能，隨時升級和BitLocker。</p>
+<p>Overview<br/>Windows Vista was designed to replace Windows XP, the most popular and reliable OS released by Microsoft. Released in 2007, Vista was Microsoft’s response to the changing nature of home computing including networking and digital media access, and the widespread changes Internet for not just data retrieval, but Web 2.0, commerce, and media streaming. On the business side, Vista’s design was to make OS deployment and management more efficient and secure for IT departments. Overall, Vista did not replace WinXP for many reasons, but it did introduce many new features that continued in Windows 7 and have become standard features in subsequent versions up to Windows 8.1 and Windows 10, including Windows Search with Indexing (search box located in Start Menu), User Account Access (UAC), Aero features, Anytime Upgrade, and BitLocker.</p>
+<p>從技術上講，Microsoft發布了六個版本的Vista，</p>
+<p>，但簡化版僅適用於新興市場和經濟困難的市場，從未在任何地方出售或發布發達國家。四個零售版分別是Home Basic，Home Premium，Business和Ultimate。以及一個名為Enterprise的企業版。 Vista Enterprise僅可通過使用批量許可證密鑰激活的Microsoft軟件保障購買。</p>
+<p>Windows Vista Home Basic包括Vista操作系統（OS）的所有基本功能，包括Windows Movie Maker，Windows Photo Gallery，父母控件和Windows Search的部分版本，以及對Microsoft環境的許多其他新增強功能。 Home Basic最多僅支持1個CPU，最大支持4 GB RAM（32位）/ 8 GB RAM（64位）。這是最便宜的版本，通常預裝在上網本和入門級台式機上。</p>
+<p>Technically Microsoft released six editions of Vista, but the Starter Edition was only available in emerging and economically challenged markets and was never sold or released in any fully developed country. The four Retail Editions are Home Basic, Home Premium, Business, and Ultimate; and, one Corporate Edition named Enterprise. Vista Enterprise is only available for purchase through Microsoft Software Assurance using Volume License Key activation.Windows Vista Home Basic includes all the base features of the Vista operating system (OS), including a partial version of Windows Movie Maker, Windows Photo Gallery, parental controls, and Windows Search along with many other new enhancements to the Microsoft environment. Home Basic supports only 1 CPU maximum and 4 GB RAM (32-bit)/8 GB RAM (64-bit) maximum. This was the least expensive edition and was often preloaded on netbooks and entry-level desktops.</p>
+<p>Home Premium添加了以下功能：Windows Aero的部分版本，Windows Movie Maker HD，DVD Maker，Windows Media Center（包括較早的WinXP Media Center功能），實況電視錄製和回放以及通過網絡自動計劃文件備份。家庭高級版最多僅支持1個CPU，最大支持4 GB RAM（32位）/ 16 GB RAM（64位）。</p>
+<p>Home Premium adds features such as a partial version of Windows Aero, , Windows Movie Maker HD, DVD Maker, Windows Media Center (encompassing the older WinXP Media Center features), Live TV recording and playback, and automatic scheduling of file backups with networking. Home Premium supports only 1 CPU maximum and 4 GB RAM (32-bit)/16 GB RAM (64-bit) maximum.</p>
+<p>Vista Business省略了許多家庭專用功能，例如父母控制，某些媒體工具，並使內置遊戲成為可選功能。業務專注於公司和企業功能，例如域網絡，文件和文件夾權限，遠程桌面，集中管理，計劃的聯網圖像和文件備份，卷影副本，傳真和掃描以及脫機文件功能。 Vista Business最多支持2個CPU，最大支持4 GB RAM（32位）/ 128 + GB RAM（64位）。</p>
+<p>Vista Business omits many of the home specific features such as parental control, some of the media tools, and makes the built-in games optional. Business focuses on corporate and enterprise features such as domain networking, file and folder permissions, remote desktop, centralized management, scheduled networked image and file backups, shadow copy, fax and scan, and offline file capabilities. Vista Business supports up to 2 CPU’s maximum and 4 GB RAM (32-bit)/128+ GB RAM (64-bit) maximum.</p>
+<p>Enterprise提供了除Small Business Resources之外的所有Vista Business Edition功能，添加了BitLocker加密，基於UNIX的應用程序子系統以及多語言用戶界面。專為在客戶端-服務器網絡環境中運行而設計的企業版包括高級網絡功能和最多四個虛擬機的許可。企業版最多支持2個CPU，最大支持4 GB RAM（32位）/ 128 + GB RAM（64位）。</p>
+<p>Enterprise provides all Vista Business Edition features except Small Business Resources, adds BitLocker encryption, a UNIX-based application subsystem, and the Multilingual User Interface. Specifically designed to run in a client-server network environment, Enterprise includes advanced networking features and licensing for up to four Virtual Machines. Enterprise supports up to 2 CPU’s maximum and 4 GB RAM (32-bit)/128+ GB RAM (64-bit) maximum.</p>
+<p>Vista Ultimate結合了家庭高級版，企業版和企業版的所有新增功能。 Vista Ultimate是唯一可以與Enterprise互操作以維護完整功能和安全性的版本。 Ultimate和Enterprise是唯一包含BitLocker驅動器加密，基於UNIX的應用程序子系統和多語言用戶界面的版本。此外，Ultimate包括特殊的可下載Ultimate附加功能。 Ultimate最多支持2個CPU，最大支持4 GB RAM（32位）/ 128 + GB RAM（64位）。</p>
+<p>Vista Ultimate combines all added features of the Home Premium, Business, and Enterprise editions. Vista Ultimate is the only edition that can interoperate with Enterprise maintaining full functionality and security. Ultimate and Enterprise are the only Edition to include BitLocker Drive Encryption, UNIX-based application subsystem, Multilingual User Interface. In addition, Ultimate includes special downloadable Ultimate extras. Ultimate supports up to 2 CPU’s maximum and 4 GB RAM (32-bit)/128+ GB RAM (64-bit) maximum.</p>
+<p>這五個變體中的每一個都以32位和64位版本提供。 64位版本的功能與32位版本相同，但是需要64位CPU。 64位操作系統添加了設備驅動程序，以支持64位主板，處理器和其他設備。重要的一點是，32位軟件將在64位OS上運行，而不是相反。 64位版本的另一個強大優勢是，它消除了32位OS的3.5 GB RAM限制，根據版本的不同，允許從最小512 GB到最大128+ GB的RAM。</p>
+<p>Each of these five variants are offered in 32-bit and 64-bit versions. The 64-bit version is identical in features to the 32-bit version, but requires a 64-bit CPU. The 64-bit OS adds device drivers to support a 64-bit motherboard, processors, and other devices. An important point is that 32-bit software will run on a 64-bit OS but not the other way around. Another powerful advantage of the 64-bit version is that it eliminates the 3.5 GB RAM limitation of the 32-bit OS, allowing from 512 GB minimum up to 128+ GB maximum of RAM depending on the version.</p>
+<p><strong>Windows Vista功能：桌面，Aero，小工具</strong></p>
+<p>桌面是所有版本的Windows共有的功能。 在Windows Vista中，桌面在圖形上比在Windows XP中更具吸引力。 Aero界面是一項重大的設計創新，旨在為用戶提供類似於Mac OS X的關鍵功能（與OS X Dock相比，Aero Flip 3D）。</p>
+<p>The Desktop is a feature that is common to all versions of Windows. In Windows Vista, the Desktop is more graphically appealing than in Windows XP. The Aero interface was a major design initiative that attempted to give users key features similar to Mac OS X (Aero Flip 3D compared to the OS X Dock).</p>
+<p><img alt="" height="405" src="./../images/Windows_Vista_Desktop.png" width="540"/></p>
+<p>桌面是顯示所有程序的區域，默認情況下顯示“我的電腦”圖標，“回收站”圖標和“我的文檔”圖標。 在任務欄（最底部的菜單欄）中，找到“開始”菜單（該菜單包含計算機上所有程序的快捷方式），“快速啟動”工具欄（Internet Explorer和“顯示桌面”圖標所在的位置）和系統 屏幕最右邊的時鐘。 Windows Vista的Aero向桌面添加了半透明的窗口，動畫，三維窗口查看和修改後的任務欄，並在除Home Basic之外的所有Vista版本中引入。 此外，添加了一個補充工具欄（請參見上面屏幕的右側），從而允許將名為Gadgets的小程序添加到Aero下的Desktop中。 其中包括日曆，遊戲，性能監控，股票票等等。 在Windows Vista中，小工具只能在補充工具欄區域中運行。</p>
+<p>The Desktop is the area where all the programs are displayed, and the My Computer icon, Recycle Bin icon, and My Documents icon are shown by default. In the Taskbar (the bottom-most menu bar), we find the Start menu (which holds shortcuts to all the programs on the machine), the Quick Launch toolbar (where the Internet Explorer and Show Desktop icons are located), and the system clock on the far right of the screen. Windows Vista’s Aero adds translucent windows, animations, three-dimensional window viewing, and a modified Taskbar to the Desktop and was introduced in all Vista versions except Home Basic. Additionally, a Sidebar (see right side of screen above), was added, allowing for small programs called Gadgets to be added to the Desktop under Aero. This included calendars, games, performance monitoring, stock tickets, and more. In Windows Vista, Gadgets can only be run in the Sidebar area.</p>
+<p>使用/管理Windows：影子複製和ReadyBoost</p>
+<p>影子複製<br/>影子複製在Windows Vista的商業版，旗艦版和企業版中可用。 卷影複製允許在Windows還原點或Windows備份中存儲以前版本的文件。 默認情況下，Windows僅為系統驅動器（存儲操作系統的位置）創建還原點，但是您也可以為其他驅動器啟用系統還原點。 卷影複製允許用戶還原文件的早期版本，而不必從備份驅動器中提取副本。 卷影複製就像是一個短期備份，可以保存最新的24小時，三天或兩週的文件及其修訂。</p>
+<p>Shadow Copy<br/>Shadow Copy is available in the Business, Ultimate, and Enterprise versions of Windows Vista. Shadow Copy allows for the storage of previous versions of files in the Windows restore points or in Windows Backups. By default, Windows only creates restore points for the system drive (where the operating system is stored), but you can enable system restore points for other drives as well. Shadow Copy allows a user to restore an earlier version of a file without having to pull a copy from a backup drive. Shadow Copy is like a short-term backup, keeping the latest 24 hours, three days, or two weeks worth of files and their revisions on hand.</p>
+<p><img alt="" height="545" src="./../images/image2 (1).png" width="409"/></p>
+<p>Readyboost</p>
+<p>將USB磁盤插入Windows Vista計算機時，它為您提供了使用ReadyBoost的選項。 通過使用USB閃存驅動器作為硬盤的磁盤緩存，此功能可提高硬盤讀取性能。 要使用此功能，您必須具有至少256 MB或更多隨機存取存儲器（RAM）的USB磁盤。 強烈建議使用等於或大於系統RAM的USB驅動器。 例如，如果您的工作站具有4 GB的RAM，則應使用4 GB或8 GB的拇指驅動器。</p>
+<p>ReadyBoost<br/>When inserting a USB disk into a Windows Vista machine, it gives you the option to use ReadyBoost. This feature improves hard disk read performance by using a USB flash drive as a disk cache memory for the hard disk. To use this feature, you must have a USB disk with at least 256 MB of random access memory (RAM) or more. It is highly recommended to use a USB drive that is equal to or greater than the system’s RAM. For example, if your workstation has 4 GB of RAM, you should use a 4 GB or 8 GB thumb drive.</p>
+<p><img alt="" height="363" src="./../images/unnamed.jpg" width="281"/></p>
+<br />(軟體篇)Windows 操作系統 << <a href='(軟體篇)Windows 操作系統.html'>Previous</a> <a href='(軟體篇)Windows 7操作系統.html'>Next</a> >> (軟體篇)Windows 7操作系統</div>
+        
+    <!-- footer -->
+      <div class="container">
+        <div class="row pt-3 mx-auto">
+            <p>
+            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+            Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank" >Colorlib</a>
+            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+            </p>
+        </div>
+      </div>
+    <!-- for footer -->
+    
+        </div> <!-- for site wrap -->
+            <!-- <script src="../cmsimde/static/chimper/js/jquery-3.3.1.min.js"></script> -->
+            <script src="../cmsimde/static/chimper/js/jquery-migrate-3.0.1.min.js"></script>
+            <script src="../cmsimde/static/chimper/js/jquery-ui.js"></script>
+            <script src="../cmsimde/static/chimper/js/popper.min.js"></script>
+            <script src="../cmsimde/static/chimper/js/bootstrap.min.js"></script>
+            <script src="../cmsimde/static/chimper/js/owl.carousel.min.js"></script>
+            <script src="../cmsimde/static/chimper/js/jquery.stellar.min.js"></script>
+            <script src="../cmsimde/static/chimper/js/jquery.countdown.min.js"></script>
+            <script src="../cmsimde/static/chimper/js/jquery.magnific-popup.min.js"></script>
+            <script src="../cmsimde/static/chimper/js/bootstrap-datepicker.min.js"></script>
+            <script src="../cmsimde/static/chimper/js/aos.js"></script>
+            <!--
+            <script src="../cmsimde/static/chimper/js/typed.js"></script>
+                    <script>
+                    var typed = new Typed('.typed-words', {
+                    strings: ["Web Apps"," WordPress"," Mobile Apps"],
+                    typeSpeed: 80,
+                    backSpeed: 80,
+                    backDelay: 4000,
+                    startDelay: 1000,
+                    loop: true,
+                    showCursor: true
+                    });
+                    </script>
+            -->
+            <script src="../cmsimde/static/chimper/js/main.js"></script>
+        
+<!-- 啟用 LaTeX equations 編輯 -->
+  <!-- <script>
+  MathJax = {
+    tex: {inlineMath: [['$', '$'], ['\(', '\)']]}
+  };
+  </script>
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>-->
+    </body></html>
+        
