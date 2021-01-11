@@ -391,7 +391,8 @@
 <p>另一個常見的文件系統是FAT16，它是FAT文件系統的較舊版本，通常用於USB拇指驅動器和記憶棒上。 Windows 7不支持使用除NTFS以外的任何文件系統作為其操作系統驅動器，但將支持FAT32和FAT16作為數據驅動器。</p>
 <p>Another file system that is commonly seen is FAT16, which is an older variant of the FAT file system, commonly used on USB thumb drives and memory sticks. Windows 7 does not support using any file system except NTFS for its operating system drive, but will support FAT32 and FAT16 for data drives.</p>
 <p>NTFS具有許多其他功能，例如為每個用戶提供一個單獨的回收站，並提供安裝驅動器的支持。安裝驅動器使您可以輕鬆訪問可移動介質驅動器的內容，例如其內容存儲在硬盤上。硬盤的驅動器號用於訪問硬盤和可移動媒體驅動器上的數據。驅動器可能會顯示為現有驅動器的子文件夾，例如c：\ ExtraSpace，而不是顯示為驅動器號。系統管理員可以執行有關每個用戶被允許使用多少磁盤空間（也稱為用戶配額）的規則。這樣可以防止單個用戶用完給定硬盤上的所有存儲空間。 NTFS還支持熱交換，在操作系統運行時，可以使用NTFS格式化的可移動介質驅動器進行連接或卸下。最後，NTFS支持索引編制，這有助於在使用搜索工具時快速定位信息。</p>
-<p>NTFS has many additional features, such as giving each user an individual Recycle Bin and providing support for mounting a drive. Mounting a drive enables you to access a removable-media drive's contents easily, such as if its contents are stored on your hard disk. The hard disk's drive letter is used to access data on both the hard disk and the removable media drive. Instead of the drive showing up as a drive letter, it may show up as a subfolder to an existing drive, like c:\ExtraSpace. The administrator of a system can enforce rules about how much disk space each user is allowed to use for storage— called the user’s quota — as well. This will prevent a single user from using up all the storage space on a given hard disk. NTFS also supports hot-swapping, where removable-media drives that have been formatted with NTFS can be connected or removed while the operating system is running. Finally, NTFS supports indexing, which helps locate information quickly when the search tool is used.</p><h2>(軟體篇)劃分磁碟區</h2>
+<p>NTFS has many additional features, such as giving each user an individual Recycle Bin and providing support for mounting a drive. Mounting a drive enables you to access a removable-media drive's contents easily, such as if its contents are stored on your hard disk. The hard disk's drive letter is used to access data on both the hard disk and the removable media drive. Instead of the drive showing up as a drive letter, it may show up as a subfolder to an existing drive, like c:\ExtraSpace. The administrator of a system can enforce rules about how much disk space each user is allowed to use for storage— called the user’s quota — as well. This will prevent a single user from using up all the storage space on a given hard disk. NTFS also supports hot-swapping, where removable-media drives that have been formatted with NTFS can be connected or removed while the operating system is running. Finally, NTFS supports indexing, which helps locate information quickly when the search tool is used.</p>
+<h2>(軟體篇)劃分磁碟區</h2>
 <p>硬盤驅動器實際上可以分為多個分區。 主分區包含單個驅動器號，通常以（C：\）開頭，並且可以使其處於活動狀態或可引導狀態。 這是Windows 7的安裝位置。 擴展分區可以包含一個或多個邏輯驅動器，並且該分區和關聯的驅動器不可引導。 您可以將驅動器劃分為多個分區。 例如，在下面的屏幕截圖中，硬盤實際上被分為四個主要分區，每個分區的百分比分別為（C：\），（D：\），（E：\）和（F：\）。 屏幕底部的圖顯示了單個主分區（驅動器的25％）和三個擴展分區（每個驅動器的25％）的外觀。 相反，整個磁盤可以用作具有單個主分區（C：\）的單個驅動器。 或者，如果有兩個硬盤，則第二個磁盤可以100％用作擴展分區，僅用於數據（無操作系統）。</p>
 <p>Hard drives can be virtually split into multiple partitions. The primary partition contains a single drive letter, usually beginning with (C:\), and can be made active, or bootable. This is where Windows 7 should be installed. An extended partition can contain one or more logical drives and the partition and associated drives cannot be bootable. You can carve up a drive into multiple partitions. For example, in the screenshot below, the hard disk has been virtually split into four primary partitions of 25 percent each (C:\), (D:\), (E:\), and (F:\). The diagram in the bottom of the screen shows how this looks with a single primary partition (25 percent of the drive), and three extended partitions (25 percent each of the drive). Conversely, the entire disk could be used as a single drive with a single primary partition (C:\). Or, if there are two hard disks, the second disk could be used 100 percent as an extended partition, used solely for data (no operating system).</p>
 <p><img alt="" height="391" src="/images/image7.png" width="520"/></p>
@@ -404,5 +405,118 @@
 <p>Information Needed During Installation<br/>During installation a technician must input certain information such as the name, organization, language, time/currency, keyboard method, and product key. Accepting the end user license agreement, selecting upgrade/full installation option, and selecting the hard drive partition for installation are all required. If the technician doesn’t wish to manually input this information during installation, the unattended installation method (unattend.xml) is used.</p>
 <p>服務包<br/>安裝後，確保操作系統具有最新的安全補丁很重要。由於在軟件的初始版本和當前版本之間可能已經發布了許多安全補丁，因此Microsoft將安全更新捆綁到Service Pack中。例如，對於Windows 7，只有一個Service Pack，其中包含數百個安全補丁。它包含針對編程錯誤（稱為bug），安全漏洞和系統改進的更新和修復。為了安裝Service Pack，您必須轉到windows.microsoft.com。接下來，您應該查看發行說明中可能遇到的任何潛在問題。準備就緒後，下載適用於您的Windows版本的正確Service Pack。然後，備份您的當前數據。備份數據後，通過運行下載的安裝實用程序來安裝Service Pack。 Windows 7將繼續收到更新和錯誤修復，直到2020年1月14日，微軟確定其支持將停止，因為Windows 7將達到“使用壽命終止”狀態。</p>
 <p>Service Packs<br/>After installation, it is important to ensure the operating system has the latest security patches. Because a number of security patches may have come out between the initial release of the software and the current version, Microsoft bundles security updates into service packs. For Windows 7, for example, there is only one service pack, containing hundreds of security patches. It contains updates and fixes for programming errors (called bugs), security flaws, and improvements to the system. In order to install a service pack, you must go to windows.microsoft.com. Next, you should review the release notes for any potential issues you may face. When you are ready, download the proper service pack for your version of Windows. Then, back up your current data. After backing up the data, install the service pack by running the installation utility downloaded. Windows 7 will continue to receive updates and bug fixes until January 14, 2020, when Microsoft has determined its support will stop as Windows 7 will reach “end of life” status.</p>
-<p></p><h1>HW2</h1>
+<p></p>
+<h1>HW2</h1>
+<p><span><a href="http://mde.tw/cp2020/content/HW2.html" target="_blank">http://mde.tw/cp2020/content/HW2.html</a> 所面臨的問題是各班採用亂數分組後, 部分學員無法利用學號登記 Github 帳號, 導致當時直接利用學號作為 Github 帳號所產生的 <a href="http://mde.tw/cp2020/content/W3.html" target="_blank">http://mde.tw/cp2020/content/W3.html</a> 部分內容錯誤, 在此希望採用程式流程來產生正確的 W3 分組連結內容. 但因為分組後部分學員加退選, 因此也希望透過程式方法找出各班加選或退選的學員名單, 並將尚未納組的組員加入特定組別. 另外, 當時甲班分組後並沒有像乙班將分組結合以數列儲存, 因此必須從 W3 的網站內容中設法擷取出甲班的分組數列, 以利後續進行比對或循環建立組員連結資料之用. 總結上述, HW2 計有三項主題:</span></p>
+<p><span><span><span>1.從 W3 網頁中擷取出甲班的分組數列</span></span></span></p>
+<p><span><span><span>2.比對先前分組資料與最終教務處選課名單,列出事後加選或退選人員名單</span></span></span></p>
+<p><span><span><span>3.根據組員的 Github 帳號列出正確的 W3 倉儲與網站連結</span></span></span></p>
+<pre class="brush:py;toolbar:false" contenteditable="false"># use "python read url file data" search"
+# get "https://stackoverflow.com/questions/1393324/given-a-url-to-a-text-file-what-is-the-simplest-way-to-read-the-contents-of-the"
+# since we use python 3 therefore try to use the following script to get cp1a list
+import urllib.request  # the lib that handles the url stuff
+target_url = "https://nfulist.herokuapp.com/?semester=1091&amp;courseno=0762"
+cp1a = []
+for line in urllib.request.urlopen(target_url):
+    cp1a.append(line.decode('utf-8'))
+    #print(line.decode('utf-8'), end = "") #utf-8 or iso8859-1 or whatever the page encoding scheme is
+print(cp1a)
+# need to chop \n for each line</pre>
+<p><span><span><span> </span></span></span></p>
+<pre class="brush:py;toolbar:false" contenteditable="false"># use "python chop new line" search 
+# get "https://stackoverflow.com/questions/275018/how-can-i-remove-a-trailing-newline"
+# found .rstrip() maybe work
+import urllib.request  # the lib that handles the url stuff
+target_url = "https://nfulist.herokuapp.com/?semester=1091&amp;courseno=0762"
+cp1a = []
+for line in urllib.request.urlopen(target_url):
+    cp1a.append(line.decode('utf-8').rstrip())
+    #print(line.decode('utf-8'), end = "") #utf-8 or iso8859-1 or whatever the page encoding scheme is
+print(cp1a)
+# yes, we got the needed list.</pre>
+<pre class="brush:py;toolbar:false" contenteditable="false"># now we can get the cp1b by using the same method
+# https://nfulist.herokuapp.com/?semester=1091&amp;courseno=0776
+import urllib.request  # the lib that handles the url stuff
+target_url = "https://nfulist.herokuapp.com/?semester=1091&amp;courseno=0776"
+cp1a = []
+for line in urllib.request.urlopen(target_url):
+    # we can use int() to convert string into integer
+    cp1a.append(int(line.decode('utf-8').rstrip()))
+    #print(line.decode('utf-8'), end = "") #utf-8 or iso8859-1 or whatever the page encoding scheme is
+print(cp1a)</pre>
+<pre class="brush:py;toolbar:false" contenteditable="false"># len() can be used to get the length of a list
+#print(len(cp1bGroup))
+# so we can use the for loop to read group member out
+groupNum = len(cp1bGroup)
+cp1b = []
+for i in range(groupNum):
+    # use len() to get student number for each group
+    studNum = len(cp1bGroup[i])
+    #print(cp1bGroup[i])
+    for j in range(studNum):
+        cp1b.append(cp1bGroup[i][j])
+print(cp1b)
+# yes, we transfer two dimensional list into one diimension
+# for the next step we may need to compare two lists to find the discrepancy</pre>
+<pre class="brush:py;toolbar:false" contenteditable="false"># since we don't have cp1a grouping list, we need to get it from http://mde.tw/cp2020/content/W3.html
+import requests
+from bs4 import BeautifulSoup
+
+url = "http://mde.tw/cp2020/content/W3.html"
+response = requests.get(url) # request object from url
+html_doc = response.text # get html from request object
+# can we use split to seperate file content
+#print(html_doc.split("=============================="))
+# use "1b" to cut the page
+cut1a = html_doc.split("1b")
+# get first part of cut1a
+# use "==============================" to cut the 1a html content
+cutPage = cut1a[0].split("==============================")
+#print(len(cutPage))
+#soup = BeautifulSoup(response.text, "lxml") # use lxml to parse html
+# we only test the first element of the html page
+cp1a = []
+for group in range(len(cutPage)):
+    soup = BeautifulSoup(cutPage[group], "lxml")
+
+    '''
+    print(soup.title) # get title
+    print("---")
+    print(soup.title.name) # get title name
+    print("---")
+    print(soup.title.string) # get title string
+    print("---")
+    print(soup.title.parent.name) # get title parent name
+    print("---")
+    print(soup.a) # get first anchor tag
+    print("---")
+    '''
+
+    # get all tags
+    #print(soup.find_all('a'))
+    allA = soup.find_all('a')
+    # search with "bs4 get all tag with certain text" and get "https://stackoverflow.com/questions/866000/using-beautifulsoup-to-find-a-html-tag-that-contains-certain-text"
+    index = 0
+    cp1aElement = []
+    for i in allA:
+        #print(i)
+        if "github" in str(i):
+            #print(i)
+            #print(allA[index].contents[0])
+            stud = allA[index].contents[0]
+            if stud not in cp1aElement:
+                cp1aElement.append(stud)
+        index = index + 1
+    #print("1a group " + str(group + 1) + ":")
+    #print(cp1aElement)
+    cp1a.append(cp1aElement)
+print(cp1a)
+for i in range(len(cp1a)):
+    print("group " + str(i+1) + ":", cp1a[i])
+    </pre>
+<p></p>
 <h1>HW3</h1>
+<h2>1.輸入字元 character input</h2>
+<h2>2.奇數或偶數 odd or even</h2>
+<h2>3.列出少於十的數字 List Less Than Ten </h2>
+<p></p>
